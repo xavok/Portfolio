@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--jquery-->
+    <script src="../jquery/jquery.js"></script>
+    <!--my own javascript-->
+    <script src="../MyJavaScript/app.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="../Bootstrap/bootstrap-theme.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../Bootstrap/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="../MyCSS/mainstyles.css">
+    <title>Islam Nasyrov Portfolio</title>
+</head>
+
+<body>
+    <!--<script>
+    window.alert("Hello my friends")
+    </script>
+
+    <!--navigation starts-->
+  <div class="nav">
+      <div class="container">
+      <ul class="left-side-menu">
+       <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Welcome</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="examples.html">Exapmles of my work</a></li>
+          <li><a href="../register.html">Register</a></li>
+          <li><a href="../login.html">Login</a></li>
+</ul>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Resume <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Expirence</a></li>
+              <li><a href="#">Reference</a></li>
+            </ul>
+          </li>
+      </div>
+    </div>
+<!--navigation ends-->
+    <main>
+    <div id="wrapper">
+        <button type="button" onclick="document.getElementById('time').innerHTML = Date()">CLick here to see the time</button>
+        <h1 id="time"></h1>
+
+        <p> Changing the html using javascript</p>
+        <button type="button" onclick="newFunction()">Click here!</button>
+        <button type="button" onclick="h4New()">Click here too</button>
+        <button type="button" onclick="hhh()">Click here</button>
+        <h1 id="demo">This changes first</h1>
+        <h2 id="h2">THis also changes</h2>
+        <h3>This is one doesn't</h3>
+        <h4 id="change">This changes to something new</h4>
+
+        
+        <h1>Changing Image attribure using html</h1>
+        <img id="onePiece" onclick="changeImage()" src="onePiece1.jpg" width="auto" height="auto">
+
+        <p>Click to choose you favorite one piece picture</p>
+
+      
+        <p>Please tell us you name:</p>
+
+        <input id="name" type="text">
+
+        <button type="button" onclick="nameNew()">Submit</button>
+
+        <p id="hello"></p>
+        <p>And now how about we'll do some math:</p>
+        <input id="number1" type="number" />
+        <input id="number2" type="number" />
+        <input id="number3" type="number" />
+        <input type="button" onclick="doingMath()"  value="Click here"/>
+        <p id="math"></p>
+        <p id="math1"></p>
+        <p id="math2"></p>
+        <p id="math3"></p>
+        
+        <!-- form that helps to choose your favorite anime -->
+        <form action="favorite_animes.php" method="post">
+<fieldset><legend>Choose your favorite anime(s) and we'll provide a link to best resources for it:</legend>
+<input type="checkbox" name="anime[]" value="Bleach">Bleach<br>
+<input type="checkbox" name="anime[]" value="One Piece">One Piece<br />
+<input type="checkbox" name="anime[]" value="Naruto" />Naruto<br />
+<input type="checkbox" name="anime[]" value="Fairy Tail" />Fairy Tail <br />
+<input type="checkbox" name="anime[]" value="Death Note" />Death Note<br  /> 
+</fieldset>
+<br />
+<input type="submit" name="submit" value="SUBMIT" style="background-color: black; color: white"/>
+</form>
+</div>
+    </main>
+                <footer>
+                    <p>&copy; Islam Nasyrov</p>
+                </footer>
+            </body>
+            </html>
