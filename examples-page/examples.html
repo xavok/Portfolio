@@ -2,18 +2,26 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <!--jquery-->
-    <script src="../jquery/jquery.js"></script>
-    <!--my own javascript-->
-    <script src="../MyJavaScript/app.js"></script>
-    <!-- Latest compiled and minified CSS -->
+    
     <link rel="stylesheet" href="../Bootstrap/bootstrap.css">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="../Bootstrap/bootstrap-theme.css">
+    
+    <link rel="stylesheet" type="text/css" href="../MyCSS/mainstyles.css">
+
+    
+    <!--jquery-->
+    <script src="../jquery/jquery.js"></script>    
+    
     <!-- Latest compiled and minified JavaScript -->
     <script src="../Bootstrap/bootstrap.js"></script>
-    <link rel="stylesheet" type="text/css" href="../MyCSS/mainstyles.css">
+        
+    <!--my own javascript-->
+    <script src="../MyJavaScript/app.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    
+    
     <title>Islam Nasyrov Portfolio</title>
 </head>
 
@@ -47,33 +55,31 @@
     </div>
 <!--navigation ends-->
     <main>
-    <div id="wrapper">
-        <button type="button" onclick="document.getElementById('time').innerHTML = Date()">CLick here to see the time</button>
-        <h1 id="time"></h1>
-
-        <p> Changing the html using javascript</p>
-        <button type="button" onclick="newFunction()">Click here!</button>
-        <button type="button" onclick="h4New()">Click here too</button>
-        <button type="button" onclick="hhh()">Click here</button>
-        <h1 id="demo">This changes first</h1>
-        <h2 id="h2">THis also changes</h2>
-        <h3>This is one doesn't</h3>
-        <h4 id="change">This changes to something new</h4>
-
-        
-        <h1>Changing Image attribure using html</h1>
-        <img id="onePiece" onclick="changeImage()" src="onePiece1.jpg" width="auto" height="auto">
-
-        <p>Click to choose you favorite one piece picture</p>
-
-      
-        <p>Please tell us you name:</p>
+    <div id="wrapper" style="margin-top: 20px;">
+    <p>Please tell us you name:</p>
 
         <input id="name" type="text">
 
         <button type="button" onclick="nameNew()">Submit</button>
-
         <p id="hello"></p>
+        <button type="button" id="timeBtn">Click here to see the time</button>
+        <h1 id="time" style="display: none"></h1>
+
+        <p> Changing the html using javascript</p>
+        <button type="button" onclick="zoroInfo()">Click here to learn more about Zoro</button>
+        <button type="button" onclick="luffyInfo()">Click here to learn more about Luffy</button>
+        <button type="button" onclick="sanjiInfo()">Click here to learn more about Sanji</button>
+        <p id="zoro">Info about Zoro</p>
+        <p id="luffy">Info about Luffy</p>
+        <p id="sanji">Info about Sanji</p>
+
+        
+        <h1>Click threw One Piece pictures to find your favorite one</h1>
+        <img id="onePiece" onclick="changeImage()" src="onePiece1.jpg" width="auto" height="auto">
+
+        <p>Click to choose you favorite one piece picture</p>
+
+        
         <p>And now how about we'll do some math:</p>
         <input id="number1" type="number" />
         <input id="number2" type="number" />
