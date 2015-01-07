@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login</title>
+<title></title>
 <meta name="robots" content="noindex, nofollow">
 <!-- Include CSS File Here -->
 <script src="jquery/jquery.js"></script>
@@ -17,18 +17,17 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="Bootstrap/bootstrap.js"></script>
 <link rel="stylesheet" href="MyCSS/mainstyles.css"/>
-
 </head>
 <body style="background-color:#FFFFFF;">
 <div class="nav">
       <div class="container">
       <ul class="left-side-menu">
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.php">Home</a></li>
           <li><a href="#">Welcome</a></li>
           <li><a href="#">About Me</a></li>
-          <li><a href="examples-page/examples.html">Exapmles of my work</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="login.html">Login</a></li>
+          <li><a href="examples-page/examples.php">Exapmles of my work</a></li>
+          <li><a href="register.php">Register</a></li>
+          <li><a href="login.php">Login</a></li>
 </ul>
         <ul class="menu">
           <li class="dropdown">
@@ -42,17 +41,4 @@
           </li>
       </div>
     </div>
-<div id="container-login">
-<div class="main">
-<form class="form" method="post" action="#">
-<h2>Login</h2>
-<label>Email :</label>
-<input type="text" name="demail" id="email">
-<label>Password :</label>
-<input type="password" name="password" id="password">
-<input type="button" name="login" id="login" value="Login">
-</form>
-</div>
-</div>
-</body>
-</html>
+    <!--Navigation ends -->

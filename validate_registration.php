@@ -22,27 +22,27 @@ if (!empty($_POST['fName'])) {
 $fName = $_REQUEST['fName'];
 } else {
 	$fName = NULL;
-	echo "<p class='error'> You forgot to enter your name!</p>";
+	echo "<p class='error'> You forgot to enter your first name!</p>";
 }
 if (!empty($_POST['lName'])) {
 $lName = $_REQUEST['lName'];
 } else {
 	$lName = NULL;
-	echo "<p class='error'> You forgot to enter your name!</p>";
+	echo "<p class='error'> You forgot to enter your last name!</p>";
 }
 //Validate date of birth:
 if(!empty($_REQUEST['DofBirth'])) {
 	$DofBirth = $_REQUEST['DofBirth'];
 } else {
 	$DofBirth = NULL;
-	echo "<p class = 'error'> You forgot to enter your comments!</p>";
+	echo "<p class = 'error'> You forgot to enter your date of birth!</p>";
 }
 //Validate login:
 if(!empty($_REQUEST['login'])) {
 	$login= $_REQUEST['login'];
 } else {
 	$login = NULL;
-	echo "<p class = 'error'> You forgot to enter your comments!</p>";
+	echo "<p class = 'error'> You forgot to enter your login name!</p>";
 }
 
 //Validate the email:
@@ -77,7 +77,7 @@ if(!empty($_REQUEST['password'])) {
 	$password = $_REQUEST['password'];
 } else {
 	$password = NULL;
-	echo "<p class='error'> You forgot to enter your email!</p>";
+	echo "<p class='error'> You forgot to enter a password!</p>";
 }
 
 //Validate the password again
@@ -85,7 +85,7 @@ if(!empty($_REQUEST['Rpassword'])) {
 	$Rpassword = $_REQUEST['Rpassword'];
 } else {
 	$Rpassword = NULL;
-	echo "<p class='error'> You forgot to enter your email!</p>";
+	echo "<p class='error'> You forgot to enter a password!</p>";
 }
 //if everything is Ok, print the message:
 if($lName AND $demail AND $sex && $password && $Rpassword && $DofBirth && $fName && $login) {

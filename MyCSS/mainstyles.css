@@ -450,16 +450,15 @@ background: linear-gradient(#000000 5%, #FF0004 100%);
 }
 /* fieldset and legend css */
 
-legend {
-	font-size: 15px;
-	display: block;
-  width: 100%;
-  padding: 0;
-  margin-bottom: 0;
-  line-height: 10px;
-  color: black;
-  border-bottom: none;
-}
 #wrapper {
 	text-align:center;
+}
+#form {
+	text-align: left;
+}
+#form legend {
+	text-align: center;
+}
+#form input {
+	margin-left: 400px;
 }

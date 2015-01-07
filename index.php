@@ -1,49 +1,4 @@
-﻿<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<!--jquery-->
-<script src="jquery/jquery.js"></script>
-<!--my own javascript-->
-<script src="MyJavaScript/app.js"></script>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="Bootstrap/bootstrap.css">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="Bootstrap/bootstrap-theme.css">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="Bootstrap/bootstrap.js"></script>
-<link rel="stylesheet" type="text/css" href="MyCSS/mainstyles.css">
-<title>Islam Nasyrov Portfolio</title>
-</head>
-
-<body>
-<!--navigation starts-->
-<div class="nav">
-      <div class="container">
-      <ul class="left-side-menu">
-       <li><a href="index.html">Home</a></li>
-          <li><a href="#">Welcome</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="examples-page/examples.html">Exapmles of my work</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="login.html">Login</a></li>
-</ul>
-        <ul class="menu">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle">Resume <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Education</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Expirence</a></li>
-              <li><a href="#">Reference</a></li>
-            </ul>
-          </li>
-      </div>
-    </div>
-<!--navigation ends-->
+﻿<?php require_once('header.php') ?>
 
 <div class="slider">
 
@@ -125,26 +80,22 @@
 <div class="row">
 	<div class="col-xs-4">
     <div class="content-box">
-    <h1><img src="Images/images (3).jpg" /></h1>
+    <h1><img src="Images/luffy_face.jpg" /></h1>
     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
     </div>
    </div>
     	<div class="col-xs-4">
         <div class="content-box">
-        <h1><img src="Images/images (2).jpg" /></h1>
+        <h1><img src="Images/sanji_face.jpg" /></h1>
     <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
     	</div>
     </div>
 	<div class="col-xs-4">
     <div class="content-box">
-        <h1><img src="Images/313410-brook_of_one_piece.jpg" /></h1>
+        <h1><img src="Images/zoro_face.jpg" /></h1>
     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
     </div>
     </div>
 </div>
 </main>
-<footer>
-<p>&copy; Islam Nasyrov</p>
-</footer>
-</body>
-</html>
+<?php include('footer.php'); ?>
